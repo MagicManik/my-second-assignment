@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+}
+.influencer-cam {
+    display: flex;
+}
+.influencer{
+    padding-top: 100px;
+    width: 50%;
+    padding-right: 200px;
+}
+.main-cam {
+    width: 50%;
+}
