@@ -94,11 +94,11 @@ h1, h2, h3, h4, p, .rating {
 /* -----------style of trade services are-----------
 --------------------------------------------------- */
 .photo-frame {
-    width: 300px;
+    width: 270px;
     height: 200px;
     border-radius: 10px;
     position: relative;
-    margin: 10px;
+    margin: 5px;
     overflow: hidden;
 }
 .photo img {
@@ -107,7 +107,7 @@ h1, h2, h3, h4, p, .rating {
 }
 .trade-detail {
     position: absolute;
-    width: 300px;
+    width: 270px;
    top: 0;
    display: none;
 }
