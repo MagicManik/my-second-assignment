@@ -278,5 +278,90 @@ footer{
 }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    
+    .container {
+        margin: 5px 5px;
+    }
+    .influencer-cam {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .influencer{
+        padding-top: 10px;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .main-cam img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* sdjlsdglsfljdlsf */
+
+
+    .popular-products {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .popular {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .all-products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-row-gap: 30px;
+    }
+    .products {
+        border: 5px solid rgb(255, 255, 255);
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        width: 350px;
+        height: 490px;
+        padding: 5px 2px 16px;
+    }
+    .photo-frame {
+        width: 350px;
+        height: 200px;
+        border-radius: 5px;
+        position: relative;
+        margin: 2px;
+        overflow: hidden;
+    }
+    .photo img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .trade-detail {
+        position: absolute;
+        width: 350px;
+        top: 0;
+        display: none;
+    }
+    .photo-frame:hover .trade-detail {
+        display: block;
+        background-color: #0a082679;
+        text-align: center;
+    }
+    .trade-detail h3 {
+        color: white;
+        text-align: center;
+    }
+    .trade-detail p {
+        color: white;
+    }
+    .trade-album {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .photo-frame:hover img {
+        transform: scale(1.5);
+        transition: transform 3s ease-in-out;
+    }
+
 }
