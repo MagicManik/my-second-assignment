@@ -124,8 +124,8 @@ h1, h2, h3, h4, p, .rating {
     color: white;
 }
 .trade-album {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 .photo-frame:hover img {
     transform: scale(1.5);
